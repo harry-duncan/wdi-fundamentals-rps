@@ -43,13 +43,13 @@ function getWinner(playerMove,computerMove) {
     if (playerMove===rock && computerMove===scissors) {
         var winner = "Player";
     } else if (playerMove===scissors && computerMove===paper) {
-        var winner = "player"
+        var winner = "player";
     } else if (playerMove===paper && computerMove===rock) {
-        var winner = "player"
+        var winner = "player";
     } else if (playerMove===computerMove) {
-        var winner = "tie"
+        var winner = "tie";
     } else {
-        var winner = "computer"
+        var winner = "computer";
     } 
     return winner;
 }
