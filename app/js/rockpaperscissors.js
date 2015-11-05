@@ -73,7 +73,7 @@ function playToFive() {
                 playerWins = playerWins;
                 computerWins = computerWins;
                 console.log('Player chose ' + playerMove + ' and Computer chose ' + computerMove);
-                console.log('The score total is ' + playerWins + ' V ' + computerWins);
+                console.log('The score total is ' + 'Player' + playerWins + ' V ' + 'Computer' + computerWins);
             }  else if (playerWins=5){
                 console.log("Player wins the game!");
             } else if (computerWins=5){
